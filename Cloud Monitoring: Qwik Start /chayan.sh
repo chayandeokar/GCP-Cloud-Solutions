@@ -1,3 +1,8 @@
+# Prompt user for Zone
+echo "${YELLOW_TEXT}${BOLD_TEXT}Please enter your GCP Zone:${RESET_FORMAT}"
+read -r ZONE
+export ZONE
+
 # Create the instance with the necessary metadata and tags
 gcloud compute instances create lamp-1-vm \
     --project=$DEVSHELL_PROJECT_ID \
