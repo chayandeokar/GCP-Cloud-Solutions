@@ -3,9 +3,9 @@
 export ZONE=
 ```
 ```bash
-curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/App%20Dev%3A%20Setting%20up%20a%20Development%20Environment%20-%20Python/TechCode.sh
-sudo chmod +x TechCode.sh 
-./TechCode.sh
+curl -LO https://raw.githubusercontent.com/chayandeokar/GCP-Cloud-Solutions/refs/heads/master/App%20Dev%3A%20Setting%20up%20a%20Development%20Environment%20-%20Python/chayan.sh
+sudo chmod +x chayan.sh 
+./chayan.sh
 ```
 
 </div>
