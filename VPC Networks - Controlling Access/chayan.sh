@@ -24,6 +24,8 @@ RESET=`tput sgr0`
 
 #----------------------------------------------------start--------------------------------------------------#
 
+echo "${BG_CYAN}${BLACK}${BOLD}Welcome to Chayan${RESET}"
+
 # Ask for zone input
 echo "${YELLOW}${BOLD}Please enter the zone value to export (e.g., us-central1-a):${RESET}"
 read ZONE
@@ -66,7 +68,6 @@ gcloud compute scp greenssh.sh green:/tmp --project=$DEVSHELL_PROJECT_ID --zone=
 gcloud compute ssh green --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/greenssh.sh"
 
 echo "${BG_GREEN}${BLACK}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
-
 
 # Clean up temporary files
 rm -f bluessh.sh greenssh.sh
