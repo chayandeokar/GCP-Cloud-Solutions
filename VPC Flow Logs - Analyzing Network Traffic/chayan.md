@@ -1,9 +1,9 @@
 ## ☁️ Run in Cloud Shell:
 
 ```bash
-curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/TechCode.sh
-sudo chmod +x TechCode.sh 
-./TechCode.sh
+curl -LO https://raw.githubusercontent.com/chayandeokar/GCP-Cloud-Solutions/refs/heads/master/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/chayan.sh
+sudo chmod +x chayan.sh 
+./chayan.sh
 ```
 ### Sink Name: `vpc-flows`
 
